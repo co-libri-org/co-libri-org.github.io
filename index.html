@@ -31,7 +31,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a>
+                <li class="nav-item mx-0 mx-lg-1"
+                    style="display:none"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a>
                 </li>
@@ -59,11 +60,13 @@
         <!-- Masthead Subheading-->
         <p class="masthead-subheading font-weight-light
                   mb-0">Maitrise d'oeuvre pour la
+                  l’ingénierie de systèmes complexes et
                   valorisation de données scientifiqes</p>
     </div>
 </header>
 <!-- Portfolio Section-->
-<section class="page-section portfolio" id="portfolio">
+<section class="page-section portfolio" id="portfolio"
+                                        style="display:none">
     <div class="container">
         <!-- Portfolio Section Heading-->
         <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
@@ -142,9 +145,11 @@
 <section class="page-section bg-primary text-white mb-0" id="about">
     <div class="container">
         <!-- About Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+        <h2 class="page-section-heading text-center
+                   text-uppercase text-white"
+            style="display:none">About</h2>
         <!-- Icon Divider-->
-        <div class="divider-custom divider-light">
+        <div class="divider-custom divider-light"  style="display:none">
             <div class="divider-custom-line"></div>
             <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
             <div class="divider-custom-line"></div>
@@ -153,34 +158,19 @@
         <div class="row">
             <div class="col-lg-4 ms-auto"><p class="lead">
 
-                "MOE/AMOE en développement logiciel, je
-                suis chargé de piloter les projets informatiques que l'on me confie.
-                Mon rôle consiste à
-                accompagner les équipes de développement dans la conception
-                et la réalisation des applications informatiques.
-
-                Je suis un fervent adepte des méthodes agiles, qui
-                permettent une gestion de projet plus flexible, plus
-                réactive et plus collaborative. J'organise ainsi des
-                réunions quotidiennes avec les équipes de développement pour
-                faire le point sur l'avancement du projet et ajuster les
-                priorités si nécessaire." <br/>- Généré par Chat GPT - 19 avril 2023
+                MOE/AMOE en développement logiciel,
+                accompagnement des équipes dans la
+                conception et la réalisation d’applications
+                en mode agile.
 
 
             </p></div>
             <div class="col-lg-4 me-auto"><p class="lead">
 
-                "Je suis également très attaché aux techniques d'intégration
-                continue, qui permettent une validation en temps réel du
-                code produit par les développeurs. Grâce à cette méthode, je
-                m'assure que chaque modification apportée à l'application
-                est testée automatiquement et qu'elle est conforme aux
-                attentes du client.
-
-                En somme, en tant que responsable du projet,
-                j'apporte une expertise technique et méthodologique qui
-                permet de garantir la qualité des produits livrés tout en
-                respectant les délais et les budgets impartis." <br/>- Généré par Chat GPT - 19 avril 2023
+                Mise en œuvre de pratiques DevOps
+                d’intégration continue pour automatiser le
+                déploiement et assurer la qualité des
+                livrables dans les délais impartis.
 
             </p></div>
         </div>
@@ -190,9 +180,12 @@
 <section class="page-section" id="contact">
     <div class="container">
         <!-- Contact Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+        <h2 class="page-section-heading text-center
+                   text-uppercase text-secondary mb-0">
+        <a href="mailto:contact@co-libri.org" style="text-decoration: none">Contact</a>
+        </h2>
         <!-- Icon Divider-->
-        <div class="divider-custom">
+        <div class="divider-custom" style="display:none">
             <div class="divider-custom-line"></div>
             <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
             <div class="divider-custom-line"></div>
@@ -207,7 +200,7 @@
             <div class="col-lg-4 mb-5 mb-lg-0">
                 <h4 class="text-uppercase mb-4">Emplacement</h4>
                 <p class="lead mb-0">
-                    7 rue du Cougaing
+                   5 rue d'Alsace
                     <br/>
                     11300 Limoux
                 </p>
@@ -224,16 +217,16 @@
             <div class="col-lg-4">
                 <h4 class="text-uppercase mb-4">A propos de co-libri.org</h4>
                 <p class="lead mb-0">
-                    co-libri.org est la marque sous laquelle j'exerce au sein de la coopérative d'activité
-                    <a href="https://sapie.coop/site/">Sapie Coop</a>
-                    .
+                    Forme juridique: Entreprise Individuelle (EI)<br/>
+                    Siret: 502 135 825 00037
                 </p>
             </div>
         </div>
     </div>
 </footer>
 <!-- Copyright Section-->
-<div class="copyright py-4 text-center text-white">
+<div class="copyright py-4 text-center text-white"
+     style="display:none">
     <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
 </div>
 <!-- Portfolio Modals-->

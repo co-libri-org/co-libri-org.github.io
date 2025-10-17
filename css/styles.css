@@ -10976,8 +10976,8 @@ html {
   line-height: 2.75rem;
 }
 .masthead .masthead-subheading {
-  font-size: 2rem;
-  color: black;
+  font-size: 1rem;
+  color: white;
 }
 .masthead .masthead-avatar {
   width: 25rem;
@@ -11059,7 +11059,7 @@ html {
 
 .text-box {
     margin: 3rem;
-    border: 5px solid black;  /* cadre noir */
+    border: 0px solid black;  /* cadre noir */
     padding: 1rem;            /* espace entre le texte et le cadre */
     border-radius: 0.5rem;    /* coins légèrement arrondis (optionnel) */
 }

@@ -10976,7 +10976,8 @@ html {
   line-height: 2.75rem;
 }
 .masthead .masthead-subheading {
-  font-size: 1.25rem;
+  font-size: 2rem;
+  color: black;
 }
 .masthead .masthead-avatar {
   width: 25rem;
@@ -10992,7 +10993,7 @@ html {
     line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 .portfolio .portfolio-item {
@@ -11043,4 +11044,12 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+
+.text-box {
+    margin: 3rem;
+    border: 5px solid black;  /* cadre noir */
+    padding: 1rem;            /* espace entre le texte et le cadre */
+    border-radius: 0.5rem;    /* coins légèrement arrondis (optionnel) */
 }

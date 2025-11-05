@@ -11065,7 +11065,12 @@ html {
 }
 
 /* --------- Rhi addons ----------- */
-.contact_link {
+#contact-link {
     color: inherit;
     text-decoration: none;
+}
+
+#title-icon {
+    height: 2em;
+    width: auto;
 }

@@ -11078,3 +11078,42 @@ html {
 #mainNav {
     color: white;
 }
+
+ul.custom-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.custom-list li {
+    position: relative;
+    padding-left: 50px; /* espace pour l'icône */
+    argin-bottom: 10px;
+}
+
+
+/* Icône HAL */
+ul.custom-list li.hal::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;  /* largeur de l'icône réduite */
+    height: 24px; /* hauteur de l'icône réduite */
+    background-image: url('../assets/img/portfolio/hal-32x32.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Icône Harvard */
+ul.custom-list li.harvard::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    background-image: url('../assets/img/portfolio/harvard-32x32.png');
+    background-size: contain;
+    background-repeat: no-repeat;
